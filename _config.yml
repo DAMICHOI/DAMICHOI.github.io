@@ -15,9 +15,9 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR" #"en-US"
 title                    : "로라의 기술블로그"
-title_separator          : "-"
+title_separator          : "&#124;" #"-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Laura"
 description              : "이 블로그는 개발자로서 어떻게 잘 성장할 수 있을까 고민하다가 만든 기술블로그입니다."
@@ -26,8 +26,8 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+masthead_title           : "로라의 기술블로그" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : ture # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -96,9 +96,9 @@ analytics:
 author:
   name             : "Dami Choi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere, Korea"
-  email            :
+  bio              : "꾸준히 공부하는 개발자입니다. <br/> 블로그 포스트에서 잘못된 내용이 있다면 댓글을 남겨주시면 정정하도록 하겠습니다."
+  location         : "Republic of Korea"
+  email            : "choidami93@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -130,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/DAMICHOI"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
