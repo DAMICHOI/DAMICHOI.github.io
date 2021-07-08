@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dami Choi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "꾸준히 공부하는 개발자입니다. <br/> 블로그 포스트에서 잘못된 내용이 있다면 댓글을 남겨주시면 정정하도록 하겠습니다."
+  name             : "Laura"
+  avatar           : "/assets/images/avatar.png"
+  bio              : "배움을 추구하는 개발자입니다.<br/>포스트에서 잘못된 내용이 있다면 댓글을 남겨주시면 정정하도록 하겠습니다."
   location         : "Republic of Korea"
   email            : "choidami93@gmail.com"
   links:
@@ -277,6 +277,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
