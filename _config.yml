@@ -1,154 +1,113 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
-locale                   : "ko-KR" #"en-US"
-title                    : "로라의 기술블로그"
-title_separator          : "&#124;" #"-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Laura"
-description              : "이 블로그는 개발자로서 어떻게 잘 성장할 수 있을까 고민하다가 만든 기술블로그입니다."
-url                      : "https://damichoi.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "로라의 기술블로그" # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : ture # true, false (default)
-words_per_minute         : 200
+minimal_mistakes_skin: contrast
+locale: ko-KR
+title: 로라의 기술블로그
+title_separator: '&#124;'
+subtitle: null
+name: Dami Choi
+description: 이 블로그는 개발자로서 어떻게 잘 성장할 수 있을까 고민하다가 만든 기술블로그입니다.
+url: 'https://damichoi.github.io/'
+baseurl: null
+repository: null
+teaser: null
+logo: null
+masthead_title: 로라의 기술블로그
+breadcrumbs: ture
+words_per_minute: 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: null
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: null
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: null
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid: null
+    num_posts: null
+    colorscheme: null
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: null
+    issue_term: null
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch: null
+    endpoint: null
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey: null
+  secret: null
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path: null
+  hide: null
+search: null
+search_full_content: null
+search_provider: null
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: null
+  index_name: null
+  search_only_api_key: null
+  powered_by: null
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
-
-# Social Sharing
+  search_engine_id: null
+  instant_search: null
+google_site_verification: null
+bing_site_verification: null
+yandex_site_verification: null
+naver_site_verification: null
 twitter:
-  username               :
+  username: null
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+  username: null
+  app_id: null
+  publisher: null
+og_image: null
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-# Analytics
+  type: null
+  name: null
+  links: null
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: false
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
-
-# Site Author
+    tracking_id: null
+    anonymize_ip: null
 author:
-  name             : "Laura"
-  avatar           : "/assets/images/avatar.png"
-  bio              : "배움을 추구하는 개발자입니다.<br/>포스트에서 잘못된 내용이 있다면 댓글을 남겨주시면 정정하도록 하겠습니다."
-  location         : "Republic of Korea"
-  email            : "choidami93@gmail.com"
+  name: Dami Choi (Laura)
+  avatar: /assets/images/avatar.png
+  bio: 배움을 추구하는 개발자입니다.<br/>포스트에서 잘못된 내용이 있다면 댓글을 남겨주시면 정정하도록 하겠습니다.
+  location: Republic of Korea
+  email: choidami93@gmail.com
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/DAMICHOI"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/laura_.dev"
-
-# Site Footer
+    - label: Email
+      icon: fas fa-fw fa-envelope-square
+    - label: Website
+      icon: fas fa-fw fa-link
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+    - label: Facebook
+      icon: fab fa-fw fa-facebook-square
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: 'https://github.com/DAMICHOI'
+    - label: Instagram
+      icon: fab fa-fw fa-instagram
+      url: 'https://instagram.com/laura_.dev'
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/DAMICHOI"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
-
-# Reading Files
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+    - label: Facebook
+      icon: fab fa-fw fa-facebook-square
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: 'https://github.com/DAMICHOI'
+    - label: GitLab
+      icon: fab fa-fw fa-gitlab
+    - label: Bitbucket
+      icon: fab fa-fw fa-bitbucket
+    - label: Instagram
+      icon: fab fa-fw fa-instagram
 include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
+  - '*.sublime-project'
+  - '*.sublime-workspace'
   - vendor
   - .asset-cache
   - .bundle
@@ -171,24 +130,20 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - /docs
+  - /test
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
+encoding: utf-8
+markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: |+
+
+
 incremental: false
-
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -196,82 +151,40 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  smart_quotes: 'lsquo,rsquo,ldquo,rdquo'
   enable_coderay: false
-
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins (previously gems:)
+  style: compressed
+permalink: '/:categories/:title/'
+paginate: 5
+paginate_path: '/page:num/'
+timezone: null
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-# Defaults
 defaults:
-  # _posts
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: single
@@ -280,10 +193,8 @@ defaults:
       comments: true
       share: true
       related: true
-
-  # _pages
   - scope:
-      path: "_pages"
+      path: _pages
       type: pages
     values:
       layout: single
