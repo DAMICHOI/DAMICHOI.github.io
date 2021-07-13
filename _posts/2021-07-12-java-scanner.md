@@ -1,7 +1,7 @@
 ---
-title: JAVA - Scanner(스캐너)
+title : \[JAVA] Scanner(스캐너)
 date : 2021-07-12 00:00:00+0900
-tags:
+tags :
 - JAVA
 - Coding Test
 ---
