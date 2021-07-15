@@ -1,0 +1,23 @@
+.tag-item {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 1px 5px;
+  text-decoration: none;
+  border: 1px solid mix(#000, $border-color, 25%);
+  border-radius: $border-radius;
+  size: 0.6em;
+
+  &:hover {
+    text-decoration: none;
+    color: $link-color-hover;
+  }
+}
+
+.tag-posts {
+  font-size: 0.6em;
+
+  .font-purple {
+    color: purple;
+  }
+}

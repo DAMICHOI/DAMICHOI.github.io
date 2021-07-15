@@ -2,16 +2,90 @@
 layout: archive
 ---
 
-{% if page.tags %}
-  {% for tag in page.tags %}
+{{ content }}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function () { 
+  $("[data-tag]").click((e) => {
+    currentTag = e.target.dataset.tag;
+    filterByTagName(currentTag);
+  });
+});
+
+function filterByTagName(tagName) {
+  $('.hidden').removeClass('hidden');
+  $('.post-wrapper').each((index, elem) => {
+    if (!elem.hasAttribute(`data-${tagName}`)) {
+      $(elem).addClass('hidden');
+    }
+  });
+  $(`.tag`).removeClass('selected');
+  $(`.tag[data-tag="${tagName}"]`).addClass('selected');
+}
+</script>
+
+{% if site.tags %}
+  {% for tag in site.data.tags %}
     {% if site.data.tags contains tag %}
-      <span class="tag">{{ site.data.format[tag] }}</span>
+      <span class="tag tag-item" data-tag="{{tag}}">
+        {{ site.data.format[tag] }}
+      </span>
     {% endif %}
   {% endfor %}
 {% endif %}
 
-{{ content }}
+<div class="entries-list">
+{% for post in site.posts %}
+<div class="post-wrapper list__item" 
+  {% if post.tags %}
+    {% for tag in post.tags %}
+      data-{{ tag }} 
+    {% endfor %}
+  {% endif %} >
 
+  {% if post.header.teaser %}
+    {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+  {% else %}
+    {% assign teaser = site.teaser %}
+  {% endif %}
+
+  {% if post.id %}
+    {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% else %}
+    {% assign title = post.title %}
+  {% endif %}
+  <article class="post-preview archive__item">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    <p class="archive__item page__meta">
+      <i class="fa fa-fw fa-tags"></i>
+      {% for tag in post.tags %}
+        <span data-tag="{{tag}}">
+          [ {{ tag }} ] 
+        </span>
+      {% endfor %}
+    </p>
+    {% include page__meta.html type=include.type %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+  </article>
+</div>
+{% endfor %}
+</div>
+<a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+
+
+<!--
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
@@ -36,3 +110,4 @@ layout: archive
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
+-->
