@@ -1,8 +1,7 @@
 ---
-title: Markdown(마크다운) - 테이블(표) 작성
+title : Markdown(마크다운) - 테이블(표) 작성
 date : 2021-07-11 00:00:00+0900
-tags:
-- markdown
+tags : [markdown]
 ---
 
 # 테이블(표) 작성
