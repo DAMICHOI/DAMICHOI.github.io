@@ -1,0 +1,12 @@
+{% if post.tags %}
+<p class="archive__item page__meta">
+    <i class="fa fa-fw fa-tags"></i>
+    {% for tag in post.tags %}
+      {% if site.data.tags contains tag %}
+        <span data-tag="{{tag}}">
+          [ {{ site.data.format[tag] }} ] 
+        </span>
+      {% endif %}
+    {% endfor %}
+</p>
+{% endif %}
