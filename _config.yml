@@ -16,7 +16,7 @@ words_per_minute: 200
 comments:
   provider: null
   disqus:
-    shortname: null
+    shortname: "damichoi-dev" #null
   discourse:
     server: null
   facebook:
