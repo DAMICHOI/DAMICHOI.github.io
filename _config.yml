@@ -11,7 +11,7 @@ repository: null
 teaser: null
 logo: null
 masthead_title: 로라의 기술블로그
-breadcrumbs: ture
+breadcrumbs: false
 words_per_minute: 200
 comments:
   provider: "disqus" #null
