@@ -166,6 +166,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-toc
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
