@@ -1,5 +1,4 @@
 ---
-layout: posts
 title : \[Algorithm] Programmers - 70128. 내적
 date : 2021-07-20 00:00:00+0900
 categories: [posts, algorithm]

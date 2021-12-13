@@ -1,5 +1,4 @@
 ---
-layout: posts
 title : \[Algorithm] Leetcode - 1. Two Sum (JAVA)
 date : 2021-12-13 00:00:00+0900
 categories: [posts, algorithm]

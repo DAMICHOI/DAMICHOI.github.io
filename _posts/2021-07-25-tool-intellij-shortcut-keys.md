@@ -1,5 +1,4 @@
 ---
-layout: posts
 title : IntelliJ Shortcut Keys for Windows (인텔리제이 윈도우 단축키)
 date : 2021-07-25 00:00:00+0900
 categories: [posts, intellij]

@@ -1,5 +1,4 @@
 ---
-layout: posts
 title : \[Mac OS] Error ; Unknown command ; cask 오류 해결 방법
 date : 2021-07-31 00:00:00+0900
 categories: [posts, mac]

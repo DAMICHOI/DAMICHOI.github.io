@@ -1,5 +1,4 @@
 ---
-layout: posts
 title : \[JAVA] 대소문자 변환 메서드 - toUpperCase(), toLowerCase()
 date : 2021-08-03 00:00:00+0900
 categories: [posts, java]

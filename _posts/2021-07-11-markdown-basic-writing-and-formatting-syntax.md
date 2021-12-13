@@ -1,5 +1,4 @@
 ---
-layout: posts
 title : Markdown(마크다운) - 기본 작성 및 서식 구문
 date : 2021-07-11 00:00:00+0900
 categories: [posts, markdown]
