@@ -14,9 +14,9 @@ masthead_title: 로라의 기술블로그
 breadcrumbs: false
 words_per_minute: 200
 comments:
-  provider: "disqus" #null
+  provider: #null
   disqus:
-    shortname: "damichoi-dev" #null
+    shortname: #null
   discourse:
     server: null
   facebook:
@@ -69,7 +69,7 @@ analytics:
 author:
   name: Dami Choi (Laura)
   avatar: /assets/images/avatar.png
-  bio: 배움을 추구하는 개발자입니다.<br/>포스트에서 잘못된 내용이 있다면 댓글을 남겨주시면 정정하도록 하겠습니다.
+  bio: Deep Dive 하기
   location: Republic of Korea
   email: choidami93@gmail.com
   links:
