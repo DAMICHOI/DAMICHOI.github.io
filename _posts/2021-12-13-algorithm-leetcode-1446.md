@@ -1,9 +1,9 @@
 ---
-title : \[Algorithm] Leetcode - 1446. Consecutive Characters (JAVA)
-date : 2021-12-13 00:00:00+0900 
-tags : [algorithm]
 layout: posts
-permalink: /posts/algorithm/
+title : \[Algorithm] Leetcode - 1446. Consecutive Characters (JAVA)
+date : 2021-12-13 00:00:00+0900
+categories: [posts, algorithm]
+tags : [algorithm]
 toc: true
 toc_sticky: ture
 ---
