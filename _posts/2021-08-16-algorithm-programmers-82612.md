@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[Algorithm] Programmers - 82612. 부족한 금액 계산하기
 date : 2021-08-16 00:00:00+0900
+categories: [posts, algorithm]
 tags : [algorithm]
+toc: true
+toc_sticky: ture
 ---
 
 # 부족한 금액 계산하기

@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[Algorithm] Programmers - 72410. 신규 아이디 추천
 date : 2021-07-22 00:00:00+0900
+categories: [posts, algorithm]
 tags : [algorithm]
+toc: true
+toc_sticky: ture
 ---
 
 # 신규 아이디 추천

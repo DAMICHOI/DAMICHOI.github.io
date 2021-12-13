@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[Algorithm] Programmers - 12917. 문자열 내림차순으로 배치하기
 date : 2021-07-25 00:00:00+0900
+categories: [posts, algorithm]
 tags : [algorithm]
+toc: true
+toc_sticky: ture
 ---
 
 # 문자열 내림차순으로 배치하기

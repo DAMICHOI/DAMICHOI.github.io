@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[Algorithm] Programmers - 42576. 완주하지 못한 선수(JAVA/해시)
 date : 2021-07-13 00:00:00+0900
+categories: [posts, algorithm]
 tags : [algorithm]
+toc: true
+toc_sticky: ture
 ---
 
 # 완주하지 못한 선수

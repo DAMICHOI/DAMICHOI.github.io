@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : IntelliJ Shortcut Keys for Windows (인텔리제이 윈도우 단축키)
 date : 2021-07-25 00:00:00+0900
+categories: [posts, intellij]
 tags : [intellij,tools]
+toc: true
+toc_sticky: ture
 ---
 
 내가 보기 위해 정리한 인텔리제이 단축키들📝  

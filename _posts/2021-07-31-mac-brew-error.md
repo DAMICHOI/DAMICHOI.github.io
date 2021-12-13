@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[Mac OS] Error ; Unknown command ; cask 오류 해결 방법
 date : 2021-07-31 00:00:00+0900
+categories: [posts, mac]
 tags : [etc,mac]
+toc: true
+toc_sticky: ture
 ---
 
 Silicon Mac (M1) 에서 Homebrew를 통해 IntelliJ IDEA를 설치하는 도중 다음과 같은 오류를 만났다.

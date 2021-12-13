@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[Git] 커밋메시지 컨벤션 정하기
 date : 2021-07-17 00:00:00+0900
+categories: [posts, git]
 tags : [git]
+toc: true
+toc_sticky: ture
 ---
 
 ## 서론

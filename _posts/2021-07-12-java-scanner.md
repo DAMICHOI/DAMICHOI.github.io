@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[JAVA] Scanner(스캐너)
 date : 2021-07-12 00:00:00+0900
+categories: [posts, java]
 tags : [java]
+toc: true
+toc_sticky: ture
 ---
    
 Scanner 클래스는 읽은 바이트를 **문자, 정수, 실수, 불린, 문자열 등 다양한 타입으로 변환하여 리턴**하는 클래스로 **java.util.Scanner**를 import하여 사용한다.

@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[JAVA] 대소문자 변환 - ASCII Code 이용
 date : 2021-08-03 00:00:00+0900
+categories: [posts, java]
 tags : [java,codingTest]
+toc: true
+toc_sticky: ture
 ---
 
 Java 에서 영문자를 대문자 혹은 소문자로 일괄 변환시켜주는 방법에는 [`toUpperCase()` 와 `toLowerCase()` 메서드를 사용하는 방법](/java-toUpperCase-toLowerCase)이 있다.   

@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[JAVA] 대소문자 변환 메서드 - toUpperCase(), toLowerCase()
 date : 2021-08-03 00:00:00+0900
+categories: [posts, java]
 tags : [java,codingTest]
+toc: true
+toc_sticky: ture
 ---
 
 Java 에서 영문자를 대문자 혹은 소문자로 일괄 변환시켜주는 메서드가 있다.

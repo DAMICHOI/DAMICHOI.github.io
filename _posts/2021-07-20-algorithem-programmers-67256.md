@@ -1,7 +1,11 @@
 ---
+layout: posts
 title : \[Algorithm] Programmers - 67256. 키패드 누르기
 date : 2021-07-20 00:00:00+0900
+categories: [posts, algorithm]
 tags : [algorithm]
+toc: true
+toc_sticky: ture
 ---
 
 # [카카오 인턴] 키패드 누르기
