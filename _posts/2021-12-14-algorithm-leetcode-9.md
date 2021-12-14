@@ -1,8 +1,10 @@
 ---
 title : \[Algorithm] Leetcode - 9. Palindrome Number (JAVA)
-date : 2021-12-14 00:00:00+0900 categories: [posts, algorithm]
+date : 2021-12-14 00:00:00+0900
+categories: [posts, algorithm]
 tags : [algorithm]
-toc: true toc_sticky: ture
+toc: true
+toc_sticky: ture
 ---
 
 ## Palindrome Number
